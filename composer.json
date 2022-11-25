@@ -1,0 +1,17 @@
+{
+    "name": "bahman/notice-board",
+    "autoload": {
+        "psr-4": {
+            "Bahman\\NoticeBoard\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bahman Niknam",
+            "email": "nightbn1990@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-mysqli": "*"
+    }
+}
