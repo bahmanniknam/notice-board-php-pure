@@ -23,7 +23,7 @@ if(isset($_POST['submit'])) {
 
 $users = (new User())->all();
 ?>
-
+<?php include 'partials/header.php';?>
 <?php include 'partials/navbar.php'; ?>
 
 <div class="row">
@@ -73,3 +73,4 @@ $users = (new User())->all();
 </div>
 
 
+<?php include'partials/footer.php'?>

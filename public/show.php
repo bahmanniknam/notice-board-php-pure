@@ -12,10 +12,10 @@ try {
     header("Location: errors/404.php?message=".$e->getMessage());
 }
 ?>
-
+<?php include 'partials/header.php';?>
 <?php include 'partials/navbar.php'; ?>
 
-<div class="row">
+<div class="row ">
 
     <div class="container-fluid text-right bg-light rounded-top  border-bottom" dir="rtl">
         <div class="col-lg-12 margin-tb">
@@ -27,7 +27,7 @@ try {
             </div>
         </div>
     </div>
-    <div class="text-right bg-light rounded" dir="rtl">
+    <div class="text-center bg-light rounded" dir="rtl">
         <div class="row mx-auto p-4">
             <div class="col-xs-12 col-sm-12 col-md-12 ">
                 <div class="form-group">
@@ -56,6 +56,7 @@ try {
         </div>
 
 </div>
+<?php include'partials/footer.php'?>
 
 
 

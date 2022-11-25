@@ -24,6 +24,7 @@
     <link rel="preconnect" href="//fdn.fontcdn.ir">
     <link rel="preconnect" href="//v1.fontapi.ir">
     <link href="https://v1.fontapi.ir/css/Yekan" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css" media=”screen” />
     <style>
         table,
         thead,

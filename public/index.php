@@ -10,10 +10,10 @@ $notices = (new Notice())->all();
 $users = (new User())->all();
 
 ?>
-
+<?php include 'partials/header.php';?>
 <?php include 'partials/navbar.php'; ?>
 
-<div class="row">
+<div class="row mb-5">
 
     <!-- Button trigger modal -->
     <div class="pb-5">
@@ -44,13 +44,13 @@ $users = (new User())->all();
                 <td><?php echo $notice->time ?></td>
                 <td><?php echo $notice->name ?></td>
                 <td>
-                    <a href="show.php?id=<?= $notice->id ?>">V
+                    <a href="show.php?id=<?= $notice->id ?>">
                         <i class="fas fa-eye text-success  fa-lg"></i>
                     </a>
-                    <a href="edit.php?id=<?= $notice->id ?>">E
+                    <a href="edit.php?id=<?= $notice->id ?>">
                         <i class="fas fa-edit text-secondary"></i>
                     </a>
-                    <a href="delete.php?id=<?= $notice->id ?>">D
+                    <a href="delete.php?id=<?= $notice->id ?>">
                         <i class="fas fa-trash fa-lg text-danger"></i>
                     </a>
                 </td>
@@ -105,5 +105,7 @@ $users = (new User())->all();
         </div>
     </div>
 </div>
+
+    <?php include'partials/footer.php'?>
 
 
